@@ -20,5 +20,7 @@ class Student
         grade TEXT
       );
     SQL
+
+    DB[:conn].execute(sql)
   end
 end
